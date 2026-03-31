@@ -4,7 +4,7 @@ def add():
   print(f"결과: {a} + {b} = {a+b}")
   return a+b
 
-def min():
+def sub():
   a = int(input("첫 번째 숫자: "));
   b = int(input("두 번째 숫자: "));
   print(f"결과: {a} - {b} = {a-b}")
@@ -36,7 +36,7 @@ for i in range(1, 6):
   if choice == 1:
     list1.append(add())
   elif choice == 2:
-    list1.append(min())
+    list1.append(sub())
   elif choice == 3:
     list1.append(mul())
   elif choice == 4:

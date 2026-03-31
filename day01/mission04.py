@@ -3,7 +3,6 @@ success = False
 game = True
 while game: 
   num = random.randint(1,100)
-  print(num)
   count = 0
   while not success:
     guess = int(input("숫자를 맞춰보세요 (1~100): "))
