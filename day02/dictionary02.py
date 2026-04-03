@@ -12,8 +12,9 @@ print(count)
 compareKey = ''
 compareValue = 0
 for key, value in count.items(): 
-  if value >= compareValue: 
+  if value > compareValue: 
     compareValue = value
     compareKey = key
 
 print(f"가장 많이 등장한 단어: {compareKey}");
+print(max(count, key=lambda k: count[k]))
