@@ -8,5 +8,5 @@ sentences = [
 ]
 
 for sentence in sentences: 
-  if sentence.replace(' ','') == sentence[::-1].replace(' ',''):
+  if sentence.replace(' ','').lower() == sentence[::-1].replace(' ','').lower():
     print(sentence)
