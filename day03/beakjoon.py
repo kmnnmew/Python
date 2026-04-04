@@ -32,3 +32,14 @@
 
 # print(result)
 
+num = int(input())
+words = []
+
+for i in range(num): 
+  words.append(input())
+
+words = list(set(words))
+words.sort(key=lambda w: (len(w), w))
+
+for word in words:
+  print(word)
