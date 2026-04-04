@@ -32,14 +32,18 @@
 
 # print(result)
 
-num = int(input())
-words = []
+# num = int(input())
+# words = []
 
-for i in range(num): 
-  words.append(input())
+# for i in range(num): 
+#   words.append(input())
 
-words = list(set(words))
-words.sort(key=lambda w: (len(w), w))
+# words = list(set(words))
+# words.sort(key=lambda w: (len(w), w))
 
-for word in words:
-  print(word)
+# for word in words:
+#   print(word)
+
+# sentence = input()
+# sentence = sentence.split()
+# print(len(sentence))
