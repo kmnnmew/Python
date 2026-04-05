@@ -47,10 +47,3 @@
 # sentence = input()
 # sentence = sentence.split()
 # print(len(sentence))
-
-num = input();
-nums = input().split();
-
-print(nums)
-
-print(f"{min(map(int, nums))} {max(map(int, nums))}")
