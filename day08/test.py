@@ -18,6 +18,13 @@
 # 전화번호 목록
 def solution(phone_book):
     answer = True
+    h = {}
     for i in phone_book:
-        
+        h[i] = 1
+    for i in phone_book:
+        temp = ""
+        for j in i[:-1]:
+            temp+=j
+            if temp in h:
+                answer = False
     return answer
